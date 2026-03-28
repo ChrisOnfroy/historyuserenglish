@@ -55,3 +55,18 @@ def main():
 
 
 main()
+
+"""
+=== ENGLISH PRACTICE ===
+
+PROTOCOL SELECTION:
+1. I will reach out to the team via Slack because the file error is an immediate blocker that needs quick attention from everyone.
+2. I will use Jira to report this file error since it requires tracking and needs to be assigned to the development team for resolution.
+3. I will send an email to my project manager about the file error because it requires detailed documentation and can be reviewed later.
+
+VOCABULARY INTEGRATION:
+My script implements persistence by saving daily blockers to a text file that remains available even after the program closes. 
+When users want to view their data, the fetch feature reads all entries from the file using readlines() and displays them in an organized list. 
+The system prevents accidental overwrite by always using append mode ('a') instead of write mode ('w'), ensuring that previously saved blockers are never deleted. 
+If users encounter any issues with the file system, they can reach out to the technical support team through the appropriate communication channels for assistance.
+"""
